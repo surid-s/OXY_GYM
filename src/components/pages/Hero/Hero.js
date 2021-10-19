@@ -8,9 +8,9 @@ const Hero = () => {
     <div>
       <section className="showcase px-4">
         <div className="overlay">
-          <h1 className="text-light">
+          <h1 className="text-danger">
             We are Always here to{" "}
-            <span className="fw-bold text-warning">Serve You.</span>
+            <span className="fw-bold text-success">Serve You.</span>
           </h1>
           <div className="apointment">
             <Link to="/contact">Make an Apointment </Link>

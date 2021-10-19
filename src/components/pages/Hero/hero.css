@@ -1,5 +1,5 @@
 .showcase {
-  background: url("../../../images/pexels-pixabay-356040.jpg") no-repeat center / cover;
+  background: url("https://i.ibb.co/dB1gJd2/Young-sporty-woman-exercising-at-the-gym.jpg") no-repeat center / cover;
   height: 600px;
   width: auto;
 }
@@ -23,7 +23,8 @@
   font-weight: bold;
   color: black;
 }
-.apointment a :hover{
+
+.apointment a :hover {
   color: white;
 }
 

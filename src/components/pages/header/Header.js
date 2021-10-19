@@ -18,7 +18,7 @@ const Header = () => {
           <Navbar.Brand>
             <NavLink to="/home" className="nav-link color-dark fw-bold">
               <img className="nav-img" src={logo} alt="" />
-              Health Care
+              Awesome Health
             </NavLink>
           </Navbar.Brand>
           <Navbar.Toggle className="toggle" aria-controls="navbarScroll" />
@@ -48,8 +48,8 @@ const Header = () => {
                 </NavLink>
               </Nav.Link>
 
-              {user?.email ? (
-                <button onClick={logOut} className="btn-warning rounded-3">
+              {user?.displayName ? (
+                <button onClick={logOut} className="btn-danger">
                   Logout
                 </button>
               ) : (
