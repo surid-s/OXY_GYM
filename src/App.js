@@ -14,6 +14,7 @@ import Footer from "./components/pages/footer/Footer"
 import Singup from "./components/pages/Login&signup/Singup"
 import AuthProvider from "./context/AuthProvider"
 import Booking from "./components/pages/Booking/Booking"
+import Instruments from "./components/Instruments/Instruments"
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
             <Route path="/services">
               <ServicesPage></ServicesPage>
             </Route>
+            <PrivateRoute path="/instru">
+              <Instruments></Instruments>
+            </PrivateRoute>
             <Route path="/contact">
               <Contact></Contact>
             </Route>

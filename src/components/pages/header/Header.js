@@ -46,6 +46,11 @@ const Header = () => {
                   <button className="menuBtn">Our Story</button>
                 </NavLink>
               </Nav.Link>
+              <Nav.Link>
+                <NavLink to="/instru" className="nav-link">
+                  <button className="menuBtn">Instruments</button>
+                </NavLink>
+              </Nav.Link>
 
               <Nav.Link>
                 <NavLink to="/contact" className="nav-link">
