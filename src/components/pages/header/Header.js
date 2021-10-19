@@ -1,7 +1,7 @@
 import React from "react"
 import { Container, Nav, Navbar } from "react-bootstrap"
 import { Link, NavLink } from "react-router-dom"
-import logo from "../../../images/—Pngtree—heart care icon with a_3670173.png"
+// import logo from "../../../images/—Pngtree—heart care icon with a_3670173.png"
 import "./header.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faSignInAlt } from "@fortawesome/free-solid-svg-icons"
@@ -17,8 +17,8 @@ const Header = () => {
         <Container fluid>
           <Navbar.Brand>
             <NavLink to="/home" className="nav-link color-dark fw-bold">
-              <img className="nav-img" src={logo} alt="" />
-              Awesome Health
+              {/* <img className="nav-img" src={logo} alt="" /> */}
+              OXY GYM
             </NavLink>
           </Navbar.Brand>
           <Navbar.Toggle className="toggle" aria-controls="navbarScroll" />

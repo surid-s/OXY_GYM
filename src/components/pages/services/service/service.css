@@ -1,6 +1,11 @@
+/* .service {
+  /* border: 1px solid rgb(238, 227, 227); */
+/* row-gap: 10px; */
+/* background-color: lightgray; */
+/* } */
 .service-img {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 150px;
   border-radius: 15px;
   padding: 10px;
   transition: 0.4s;
@@ -23,14 +28,14 @@
   box-shadow: 2px 2px 10px 1px rgb(206, 206, 206);
 }
 
-.btn-danger {
+.btn-success {
   padding: 5px 6px;
   transition: 0.4s;
   border: 1px solid white;
 }
 
-.btn-danger:hover {
-  border: 1px solid red;
-  color: red;
+.btn-success:hover {
+  border: 1px solid rgb(43, 238, 4);
+  color: rgb(228, 17, 217);
   background-color: #fff;
 }

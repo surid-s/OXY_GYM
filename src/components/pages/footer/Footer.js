@@ -1,5 +1,5 @@
 import React from "react"
-import logo from "../../../images/—Pngtree—heart care icon with a_3670173.png"
+// import logo from "../../../images/—Pngtree—heart care icon with a_3670173.png"
 import "./foooter.css"
 
 const Footer = () => {
@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="container   ">
           <div className="row">
             <div className="col ">
-              <img className="nav-img" src={logo} alt="" />
+              {/* <img className="nav-img" src={logo} alt="" /> */}
               <hr className="text-danger" />
               <ul className="text-light">
                 <li>01518011911</li>

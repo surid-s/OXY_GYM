@@ -8,8 +8,8 @@ const Service = (props) => {
       <div className="bgcolor">
         <img className="service-img" src={image} alt="" />
         <h3 className="text-info">{name}</h3>
-        <p>{details.slice(0, 80)}</p>
-        <button className="btn-danger rounded-3">Learn More</button>
+        <p>{details}</p>
+        <button className="btn-success rounded-3">Learn More</button>
       </div>
     </div>
   )
