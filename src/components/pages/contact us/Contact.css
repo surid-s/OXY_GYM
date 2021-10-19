@@ -1,0 +1,16 @@
+.contact {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: greenyellow;
+    background-color: rgb(126, 67, 67);
+}
+
+.contact-p {
+    color: rgb(8, 8, 10);
+    background-color: rgb(221, 215, 207);
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+.center-contact {
+    text-align: center;
+}
