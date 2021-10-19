@@ -1,4 +1,5 @@
 import React from "react"
+import Subscribe from "../../Subscribe/Subscribe"
 import Contact from "../contact us/Contact"
 // import Header from "../header/Header"
 import Hero from "../Hero/Hero"
@@ -11,6 +12,7 @@ const Home = () => {
       <Hero></Hero>
       <Services></Services>
       <Contact></Contact>
+      <Subscribe></Subscribe>
     </div>
   )
 }

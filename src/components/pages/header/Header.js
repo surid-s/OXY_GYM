@@ -35,10 +35,15 @@ const Header = () => {
                   <button className="menuBtn">Services</button>
                 </NavLink>
               </Nav.Link>
+              <Nav.Link>
+                <NavLink to="/admit" className="nav-link">
+                  <button className="menuBtn">Admit in OXY</button>
+                </NavLink>
+              </Nav.Link>
 
               <Nav.Link>
                 <NavLink to="/about" className="nav-link">
-                  <button className="menuBtn">About Us</button>
+                  <button className="menuBtn">Our Story</button>
                 </NavLink>
               </Nav.Link>
 

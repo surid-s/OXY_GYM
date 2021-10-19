@@ -8,7 +8,7 @@ const Login = () => {
   const { singInUsingGoogle } = useAuth()
   return (
     <div>
-      <h2 className="text-center">Please Login</h2>
+      <h2 className="text-center text-success m-3">Please Login</h2>
       <div className="login-container">
         <div className="login-img  ">
           <img className="img-fluid" src={login} alt="" />

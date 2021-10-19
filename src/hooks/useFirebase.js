@@ -20,9 +20,10 @@ const useFirebase = () => {
 
   // // //  Google SignIn // // //
   const singInUsingGoogle = () => {
-    signInWithPopup(auth, googleProvider).then((result) => {
-      setUsers(result.user)
-    })
+    signInWithPopup(auth, googleProvider)
+      .then((result) => {
+        setUsers(result.user)
+      })
   }
 
   // // //  creating user with email and password // // //
@@ -46,7 +47,7 @@ const useFirebase = () => {
 
   // // // Sign Out // // //
   const logOut = () => {
-    signOut(auth).then(() => {})
+    signOut(auth).then(() => { })
   }
 
   return {
