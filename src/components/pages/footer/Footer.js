@@ -1,6 +1,6 @@
 import React from "react"
 import logo from "../../../images/—Pngtree—heart care icon with a_3670173.png"
-import css from "./foooter.css"
+import "./foooter.css"
 
 const Footer = () => {
   return (
@@ -12,17 +12,17 @@ const Footer = () => {
               <img className="nav-img" src={logo} alt="" />
               <hr className="text-danger" />
               <ul className="text-light">
-                <li>01765871554</li>
-                <li>Brahmanbaria, Bangladesh</li>
-                <li>123 street, South North</li>
+                <li>01518011911</li>
+                <li>Bhola, Barisal </li>
+                <li>123 street, Kalinath Bazar</li>
               </ul>
             </div>
             <div className="col text-light">
-              <h4>Stuff</h4>
+              <h4>In Charge</h4>
               <hr className="text-danger" />
 
               <ul className="text-light">
-                <li>Muhammad Siam</li>
+                <li>SM Surid</li>
                 <li>Other Stuff</li>
                 <li>Cheifs</li>
               </ul>
@@ -32,7 +32,7 @@ const Footer = () => {
               <hr className="text-danger" />
 
               <ul className="text-light">
-                <li>Muhammad Siam</li>
+                <li>SM Surid</li>
                 <li>Other Stuff</li>
                 <li>Cheifs</li>
               </ul>
@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
           <hr className="text-danger fw-bold" />
           <div className="row">
-            <p className="text-danger">&copy; Reserved by Muhammad Siam</p>
+            <p className="text-danger">&copy; Reserved by SM Surid</p>
           </div>
         </div>
       </div>

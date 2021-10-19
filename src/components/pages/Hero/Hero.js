@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import "./hero.css"
 import Herocard from "./Herocard"
 
@@ -11,10 +12,8 @@ const Hero = () => {
             We are Always here to{" "}
             <span className="fw-bold text-warning">Serve You.</span>
           </h1>
-          <div className="search">
-            <button className="btn-danger rounded-3">
-              Make an Appointment
-            </button>
+          <div className="apointment">
+            <Link to="/contact">Make an Apointment </Link>
           </div>
         </div>
       </section>

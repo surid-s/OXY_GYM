@@ -1,8 +1,28 @@
 .showcase {
-  background: url("../../../images/pexels-pixabay-356040.jpg") no-repeat center /
-    cover;
+  background: url("../../../images/pexels-pixabay-356040.jpg") no-repeat center / cover;
   height: 600px;
   width: auto;
+}
+
+.apointment {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: aquamarine;
+}
+
+.apointment:hover {
+  background-color: blueviolet;
+  color: white;
+  padding: 15px;
+
+}
+
+.apointment a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+
 }
 
 .showcase .overlay {
