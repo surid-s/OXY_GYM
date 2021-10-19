@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { Link } from "react-router-dom"
 import loginimg from "../../../images/register.jpg"
 
 // Main Functoin //
@@ -80,6 +81,11 @@ const Singup = () => {
             <h5 className="text-warning">Or</h5>
             <button className="btn-danger rounded-3">Google SignUp</button>
           </form>
+
+          <p>
+            Already registered? {""}
+            <Link to="/login">Login Here </Link>
+          </p>
         </div>
       </div>
     </div>

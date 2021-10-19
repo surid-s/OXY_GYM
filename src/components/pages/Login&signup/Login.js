@@ -2,6 +2,7 @@ import React from "react"
 import "./login.css"
 import login from "../../../images/2007.i039.019_cyber_security_spyware_data_protection_isometric_set-06.jpg"
 import useAuth from "../../../hooks/useAuth"
+import { Link } from "react-router-dom"
 
 const Login = () => {
   const { singInUsingGoogle } = useAuth()
@@ -31,6 +32,7 @@ const Login = () => {
           <button onClick={singInUsingGoogle} className="btn-danger">
             Google SignIn
           </button>
+          <p>Don't have any account? <Link to="/signup">Register for free</Link> </p>
         </div>
       </div>
     </div>
